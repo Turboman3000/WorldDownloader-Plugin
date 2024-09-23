@@ -1,0 +1,8 @@
+name: WorldDownloader
+version: '${version}'
+main: de.turboman.wdl.WorldDownloader
+api-version: '1.21'
+prefix: WDL
+authors: [Turboman3000]
+description: A plugin to download a minecraft world directly from a server
+website: https://turboman.de
