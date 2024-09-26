@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Start Server" type="ShConfigurationType">
-    <option name="SCRIPT_TEXT" value="java -Xms2G -Xmx4G -jar server.jar -nogui --add-plugin ../build/libs/WorldDownloader-1.0-SNAPSHOT.jar" />
+    <option name="SCRIPT_TEXT" value="java -Xms2G -Xmx4G -jar server.jar -nogui --add-plugin ../build/libs/WorldDownloader-1.0-SNAPSHOT-all.jar" />
     <option name="INDEPENDENT_SCRIPT_PATH" value="false" />
     <option name="SCRIPT_PATH" value="&quot;$PROJECT_DIR$/server/start.bat&quot;" />
     <option name="SCRIPT_OPTIONS" value="/c" />
@@ -13,7 +13,7 @@
     <option name="EXECUTE_SCRIPT_FILE" value="false" />
     <envs />
     <method v="2">
-      <option name="Gradle.BeforeRunTask" enabled="false" tasks="jar" externalProjectPath="$PROJECT_DIR$" vmOptions="" scriptParameters="" />
+      <option name="Gradle.BeforeRunTask" enabled="false" tasks="shadowJar" externalProjectPath="$PROJECT_DIR$" vmOptions="" scriptParameters="" />
     </method>
   </configuration>
 </component>
