@@ -65,7 +65,6 @@ public class WDLCommand implements CommandExecutor {
             }
 
             ZipUtil.pack(Path.of(tmpdir, uuid + "").toFile(), zipFile);
-            break;
         }
 
         System.out.println(zipFile.getAbsolutePath());
