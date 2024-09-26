@@ -6,3 +6,7 @@ prefix: WDL
 authors: [Turboman3000]
 description: A plugin to download a minecraft world directly from a server
 website: https://turboman.de
+
+commands:
+  wdl:
+    description: Download a minecraft world directly from a server
