@@ -9,6 +9,8 @@ import java.util.Objects;
 public final class WorldDownloader extends JavaPlugin {
     public static final BossBar progressBossbar = BossBar.bossBar(Component.empty(), 0, BossBar.Color.GREEN, BossBar.Overlay.PROGRESS);
     public static final String backendURL = "http://localhost:8080/api/v1";
+    public static boolean isRunning = false;
+    public static long lastRunned =0;
 
     @Override
     public void onEnable() {
